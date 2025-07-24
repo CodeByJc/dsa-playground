@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+ #include<bits/stdc++.h>
 using namespace std ;
 
 void selection_sort(int arr[],int size){
@@ -37,6 +37,20 @@ void bubble_sort(int arr[],int size){
         cout << arr[i] << " " ;
     }
 }
+
+void insertion_sort(int arr[],int size){
+    for(int i = 1 ; i < size ; i++){
+        int j = i ;
+        while(j > 0 && arr[j - 1] > arr[j]){ 
+            swap(arr[j],arr[j - 1]);
+            j--;
+        }
+    }
+    for(int i = 0 ; i < size ;i++){
+        cout << arr[i] << " " ;
+    }
+}
+
 int main()
 {
     int size = 10;
@@ -50,7 +64,8 @@ int main()
     // cout << endl ;
     
     
-    
+    insertion_sort(arr,size);
+    cout << endl ;
     ;
     return 0;
 }
