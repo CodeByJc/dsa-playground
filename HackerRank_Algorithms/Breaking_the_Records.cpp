@@ -7,6 +7,7 @@ int main()
     int score[game] ;
     int min , max , c_min = 0 , c_max = 0 ;
     
+    
     for(int i = 0 ; i < game ; i++){
         cin >> score[i];
     }
