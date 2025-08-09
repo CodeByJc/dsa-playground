@@ -14,6 +14,8 @@ int find_occurrence(int arr[], int size, int n) {
 
 
 
+
+
 // Optional: Count the number of times a character appears in a string
 int find_char_occurrence(const string& str, char c) {
     int hash[256] = {0}; // ASCII character range
