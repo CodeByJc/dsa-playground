@@ -15,6 +15,8 @@ bool sorted(int arr[], int size) {
     return isSorted;
 }
 
+
+
 /* Selection Sort
 void selection_sort(int arr[], int size) {
     int min_index;
