@@ -11,6 +11,8 @@ void pattern1(int n) {
     }
 }
 
+
+
 // Pattern 2: Right-angled triangle of '*'
 void pattern2(int n) {
     for (int i = 0; i < n; i++) {
