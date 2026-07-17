@@ -1,0 +1,8 @@
+name: gha_practise6_sec
+on: workflow_dispatch
+jobs:
+  secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: secrets
+        run : echo "${{ secrets.DOCKER_PASSWORD }}"
