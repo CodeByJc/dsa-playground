@@ -1,0 +1,11 @@
+name : gha_practice
+on : workflow_dispatch
+jobs :
+    hello :
+      runs-on : ubuntu-latest
+      steps:
+        - name: Hello from gha_practice
+          run : |
+            echo "one"
+            echo "two"
+    
