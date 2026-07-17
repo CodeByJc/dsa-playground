@@ -1,0 +1,20 @@
+name : gha_practice1
+on : workflow_dispatch
+jobs :
+    build :
+      runs-on : ubuntu-latest
+      steps :
+        - name : build
+          run : echo "build"
+    test:
+      needs: build
+      runs-on : ubuntu-latest
+      steps :
+        - name : test
+          run : echo "test"
+    deploy:
+      needs: test
+      runs-on : ubuntu-latest
+      steps :
+        - name : deploy
+          run : echo "deploy"
