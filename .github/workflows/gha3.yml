@@ -1,4 +1,4 @@
-name : gha_practice1
+name : gha_practice3
 on : workflow_dispatch
 jobs :
     build :
