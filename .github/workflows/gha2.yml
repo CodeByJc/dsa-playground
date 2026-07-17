@@ -1,0 +1,12 @@
+name : gha_practice
+on : workflow_dispatch
+jobs :
+    hello :
+      runs-on : ubuntu-latest
+      run : echo "step1"
+    test:
+      runs-on : ubuntu-latest
+      run : echo "step2"
+    test:
+      runs-on : ubuntu-latest
+      run : echo "step3"
