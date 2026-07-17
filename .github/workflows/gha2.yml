@@ -4,15 +4,15 @@ jobs :
     build :
       runs-on : ubuntu-latest
       steps :
-          - name : build
+        - name : build
           run : echo "build"
     test:
       runs-on : ubuntu-latest
       steps :
-          - name : test
+        - name : test
           run : echo "test"
     deploy:
       runs-on : ubuntu-latest
       steps :
-          - name : deploy
+        - name : deploy
           run : echo "deploy"
