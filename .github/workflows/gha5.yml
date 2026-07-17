@@ -1,0 +1,7 @@
+name: gha_practice_env
+on: workflow_dispatch
+jobs:
+  env:
+    runs-on: linux-latest
+    steps:
+      - run: echo "${{vars.NAME}"
